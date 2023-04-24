@@ -1,5 +1,5 @@
 # ROCK 3B
-[![Build](https://github.com/radxa-build/rock-3b/workflows/Build/badge.svg)](https://github.com/radxa-build/rock-3b/actions/workflows/build.yml)
+[![Build image for Release channel](https://github.com/radxa-build/rock-3b/actions/workflows/build.yml/badge.svg)](https://github.com/radxa-build/rock-3b/actions/workflows/build.yml)[![Build image for Test channel](https://github.com/radxa-build/rock-3b/actions/workflows/test.yml/badge.svg)](https://github.com/radxa-build/rock-3b/actions/workflows/test.yml)
 
 ## What is this?
 
@@ -10,10 +10,7 @@ Not all images are officially supported by Radxa. Some of them are only provided
 ## What images are provided?
 
 Currently the following images are provided:
-* Radxa [`debos-radxa`](https://github.com/radxa/debos-radxa) images (currently supported)
-* Radxa [`rbuild`](https://github.com/radxa-repo/rbuild) images (currently testing)
-
-`debos-radxa` images contain the build time in the file name, while `rbuild` images have a fixed file name across releases. They have similar file name format as `rbuild` is intended to replace `debos-radxa`. Once we deem `rbuild` is production-ready we will cease to produce `debos-radxa` images to avoid confusion.
+* Radxa [`rbuild`](https://github.com/radxa-repo/rbuild) images
 
 ## Is there any other options?
 
