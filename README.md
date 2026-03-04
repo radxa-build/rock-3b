@@ -1,27 +1,24 @@
 # ROCK 3B
-[![Build image for Release channel](https://github.com/radxa-build/rock-3b/actions/workflows/build.yml/badge.svg)](https://github.com/radxa-build/rock-3b/actions/workflows/build.yml)[![Build image for Test channel](https://github.com/radxa-build/rock-3b/actions/workflows/test.yml/badge.svg)](https://github.com/radxa-build/rock-3b/actions/workflows/test.yml)
+[![Build image for Release channel](https://github.com/radxa-build/rock-3b/actions/workflows/build.yaml/badge.svg)](https://github.com/radxa-build/rock-3b/actions/workflows/build.yaml) [![Build image for Test channel](https://github.com/radxa-build/rock-3b/actions/workflows/test.yaml/badge.svg)](https://github.com/radxa-build/rock-3b/actions/workflows/test.yaml)
 
 ## What is this?
 
 This repo is the central location for Radxa-built system images for ROCK 3B.
 
-Not all images are officially supported by Radxa. Some of them are only provided as-is with no warranty. Please read below for detailed explanations.
+## Which image should I use?
 
-## What images are provided?
+For most systems, Radxa now only supports the Debian Desktop image.
 
-Currently the following images are provided:
-* Radxa [`rbuild`](https://github.com/radxa-repo/rbuild) images
+Other variants that were previously provided AS-IS are no longer provided. Interested users need to build those by themselves.
 
-## Is there any other options?
+Please also always use [the latest release](https://github.com/radxa-build/rock-3b/releases/latest) instead of any pre-release / test builds. Those will not be supported.
 
-Please visit [our Wiki](https://wiki.radxa.com/Rock3/downloads) for more download options.
+## Where is the source code?
 
-## Where can I download the Radxa image?
-
-Every month new images are [built](https://github.com/radxa-build/rock-3b/actions/workflows/build.yml) and [published](https://github.com/radxa-build/rock-3b/releases) as pre-releases, which serve as release candidates (RC). Radxa will periodically select an RC for additional testing, and once it passes those tests, promote it as an officially supported release. This is why you are always recommended to use [the latest release](https://github.com/radxa-build/rock-3b/releases/latest).
+This repository is only for hosting the GitHub workflows that build the image. As such, you will need to examine the workflow to find the builder.
 
 ## Help! Something doesn't work!
 
-For other questions, please first take a look at [our Wiki](https://wiki.radxa.com/Rock3), which covers the most basic usages.
+For other questions, please first take a look at [our Documentation](https://docs.radxa.com), which covers the most basic usages.
 
 Should you have any additional questions, please visit [our forum](https://forum.radxa.com/) or [our Discord](https://rock.sh/go), and we are willing to help.
